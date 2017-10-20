@@ -1,3 +1,15 @@
 // Place all the styles related to the pictures controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+img {
+  width: 60%;
+  margin: 0 15%;
+  align-content: center;
+ border: 5px solid black;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+}
