@@ -3,7 +3,10 @@
 <%= link_to("New Picture", "/pictures/new") %>
 
 <% @pictures.each do |picture| %>
-  <p><%= picture.title %>, <%= picture.artist %> </p>
-  <%=  link_to(image_tag(picture.url, :class => "artwork"), "/pictures/#{picture.id}") %>
-
+  <div class="box">
+    <p><%= picture.title %>, <%= picture.artist %> </p>
+    <div class="art_backing">
+      <%=  link_to(image_tag(picture.url, :class => "artwork", :height => "300px"), "/pictures/#{picture.id}") %>
+    </div>
+  </div>
 <% end %>

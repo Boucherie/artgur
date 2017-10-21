@@ -26,11 +26,7 @@ Picture.create(
   artist:   'William Wylie',
   url:      'https://vmfa.museum/collections/wp-content/uploads/sites/9/2013/12/VMFA_2007-2_v1_kw_x-1024x816.jpg'
 )
-Picture.create(
-  title:    'Direct Object 14',
-  artist:   'Jon-Phillip Sheridan',
-  url:      'https://vmfa.museum/collections/wp-content/uploads/sites/9/2013/12/VMFA_2012-6_Sheridan_Direct-Object-14_x-811x1024.jpg'
-)
+
 Picture.create(
   title:    'The Former and the Ladder',
   artist:   'Trenton Doyle Hancock',
@@ -67,4 +63,9 @@ Picture.create(
   title:    'Farwellscape',
   artist:   'Jiha Moon',
   url:      'https://vmfa.museum/collections/wp-content/uploads/sites/9/2013/12/VMFA_2007-14_v1_kw_X-549x1024.jpg'
+)
+Picture.create(
+  title:    'Direct Object 14',
+  artist:   'Jon-Phillip Sheridan',
+  url:      'https://vmfa.museum/collections/wp-content/uploads/sites/9/2013/12/VMFA_2012-6_Sheridan_Direct-Object-14_x-811x1024.jpg'
 )
